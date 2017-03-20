@@ -454,3 +454,24 @@ line-height: 18px;
   padding: 0 15px;
   letter-spacing: 1px;
 }
+
+.horizontal-list .horizontal-item+ .horizontal-item{
+  border-left: 1px solid #bbb;
+}
+
+.horizontal-list .horizontal-item a{
+  border-bottom: 1px dashed #777;
+  color: #bbb;
+  font-size: 1.1rem;
+  transition: color 0.15s;
+  }
+
+  .horizontal-list .horizontal-item a:hover{
+    color:#ddd;
+  }
+
+.copyright {
+  margin-top:30px;
+  text-align: center;
+  letter-spacing: 1px;
+}
